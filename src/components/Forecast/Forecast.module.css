@@ -1,0 +1,39 @@
+.card {
+    border-radius: var(--main-border-radius);
+}
+
+.box {
+    border-radius: var(--main-border-radius);
+    -webkit-box-shadow: 0 0 70px -10px rgba(248, 0, 0, 0.2);
+    box-shadow: 0 0 70px 1px rgb(5, 110, 58);
+    background-color: var(--bg-color--card);
+    color: var(--main-text-color);
+    width: 85%;
+    max-width: 675px;
+    min-height: 300px;
+}
+
+.button {
+    border: none;
+    border-radius: var(--main-border-radius);
+    padding: 0.65rem;
+    background-image: var(--gradient);
+    color: var(--main-text-color);
+    font-weight: 700;
+    box-shadow: 0 0 30px -5px rgba(250, 0, 0, 0.25);
+    cursor: pointer;
+    line-height: initial;
+    width: 300px;
+    height: 38px;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    max-width: 675px;
+}
+
+.button:hover {
+    color: var(--main-text-color);
+    -webkit-transform: scale(0.95);
+    -ms-transform: scale(0.95);
+    transform: scale(0.95);
+}
